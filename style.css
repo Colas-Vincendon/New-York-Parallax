@@ -484,6 +484,9 @@ main{
         font-size: 1rem;
         text-shadow: -1px 1px 1px rgb(83, 83, 83);
     }
+    .parallax {
+        transition: 0.5s ease-in-out;
+    }
     header ul a{
         padding: 0;
         font-size: 0.53rem;
