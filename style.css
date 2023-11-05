@@ -463,7 +463,7 @@ main{
 
 @media (max-width: 520px){
     main {
-        transform: scale(5);
+        transform: scale(4);
         transform-origin: center;
     }
     .text{
