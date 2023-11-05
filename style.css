@@ -463,9 +463,16 @@ main{
 
 @media (max-width: 520px){
     main {
+        max-width: 520px; /* Limiter la largeur à 370px */
+        margin: 0 auto; /* Centrer l'élément main horizontalement */
+    }
+    main {
         transform: scale(4);
         transform-origin: 50% 20%;
         overflow: hidden;
+    }
+    .container {
+        overflow-x: hidden; /* Masquer le défilement horizontal */
     }
     .text{
         top: 38%;
