@@ -375,6 +375,15 @@ main{
 }
 
 @media (max-width: 1299px){
+    .touch{
+        display: none;
+        z-index: 10;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        animation: touchScreen 7s;
+    }
     .text{
         top: 44%;
     }
@@ -394,6 +403,35 @@ main{
     header ul a{
         font-size: 0.73rem;
     } 
+}
+
+@keyframes touchScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.0;
+    }
+    
+    30% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0.2;
+    }
+    60% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.2;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @media (max-width: 1100px){
