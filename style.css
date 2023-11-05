@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
 
-::selection{
+::selection {
     background-color: rgba(45, 180, 151, 0.452);
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
-header{
+header {
     position: fixed;
     z-index: 9999;
     height: 100px;
@@ -28,7 +30,7 @@ header{
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-header nav{
+header nav {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -38,12 +40,13 @@ header nav{
     transform: translateY(10px);
 }
 
-header ul{
+header ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
-header ul a{
+
+header ul a {
     text-decoration: none;
     color: #fff;
     padding: 0;
@@ -52,11 +55,11 @@ header ul a{
     font-size: 0.83rem;
 }
 
-header ul a.log{
+header ul a.log {
     padding: 1.5rem;
 }
 
-.search{
+.search {
     font-size: 1.05rem;
     padding: 0 3rem;
 }
@@ -85,7 +88,8 @@ header ul a.log{
     border-radius: 2px;
 }
 
-.hamburger .bar::before, .hamburger .bar::after{
+.hamburger .bar::before,
+.hamburger .bar::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -96,19 +100,19 @@ header ul a.log{
     border-radius: 2px;
 }
 
-.hamburger .bar::before{
+.hamburger .bar::before {
     top: -5.5px;
 }
 
-.hamburger .bar::after{
+.hamburger .bar::after {
     top: 4.5px;
 }
 
-#chargement{
+#chargement {
     display: none;
 }
 
-main{
+main {
     position: relative;
     width: 100vw;
     padding-bottom: 56.25%;
@@ -140,6 +144,7 @@ main{
     left: 42.19%;
     transform: translate(-50%, -50%);
 }
+
 .nuage2 {
     position: absolute;
     width: 23.43%;
@@ -147,6 +152,7 @@ main{
     left: 89.06%;
     transform: translate(-50%, -50%);
 }
+
 .building1 {
     position: absolute;
     width: 5.86%;
@@ -154,6 +160,7 @@ main{
     left: 70.31%;
     transform: translate(-50%, -50%);
 }
+
 .nuage2reverse {
     position: absolute;
     width: 19.53%;
@@ -161,6 +168,7 @@ main{
     left: 7.03%;
     transform: translate(-50%, -50%);
 }
+
 .building2 {
     position: absolute;
     width: 5.86%;
@@ -168,6 +176,7 @@ main{
     left: 53.125%;
     transform: translate(-50%, -50%);
 }
+
 .building3 {
     z-index: 2;
     position: absolute;
@@ -176,6 +185,7 @@ main{
     left: 45.31%;
     transform: translate(-50%, -50%);
 }
+
 .building7 {
     position: absolute;
     width: 3.9%;
@@ -183,6 +193,7 @@ main{
     left: 92.97%;
     transform: translate(-50%, -50%);
 }
+
 .nuage-à-l-envers {
     z-index: 2;
     position: absolute;
@@ -191,6 +202,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .building6 {
     position: absolute;
     width: 4.69%;
@@ -198,6 +210,7 @@ main{
     left: 8.99%;
     transform: translate(-50%, -50%);
 }
+
 .bg-img {
     z-index: 2;
     position: absolute;
@@ -206,6 +219,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .building4 {
     z-index: 5;
     position: absolute;
@@ -214,6 +228,7 @@ main{
     left: 6.25%;
     transform: translate(-50%, -50%);
 }
+
 .building5 {
     z-index: 2;
     position: absolute;
@@ -222,6 +237,7 @@ main{
     left: 14.45%;
     transform: translate(-50%, -50%);
 }
+
 .building8 {
     z-index: 4;
     position: absolute;
@@ -230,6 +246,7 @@ main{
     left: 83.20%;
     transform: translate(-50%, -50%);
 }
+
 .building9 {
     z-index: 3;
     position: absolute;
@@ -238,6 +255,7 @@ main{
     left: 7.03%;
     transform: translate(-50%, -50%);
 }
+
 .eau {
     z-index: 4;
     position: absolute;
@@ -246,6 +264,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .brouillard {
     z-index: 3;
     position: absolute;
@@ -255,6 +274,7 @@ main{
     left: 80%;
     transform: translate(-50%, -50%);
 }
+
 .brouillard2 {
     z-index: 2;
     position: absolute;
@@ -264,6 +284,7 @@ main{
     left: 12%;
     transform: translate(-50%, -50%);
 }
+
 .pont {
     z-index: 5;
     position: absolute;
@@ -273,7 +294,7 @@ main{
     transform: translate(-50%, -50%);
 }
 
-.text{
+.text {
     position: absolute;
     z-index: 4;
     top: 48%;
@@ -289,16 +310,16 @@ main{
     font-size: 6.5rem;
     line-height: 0.88;
     transform: translateY(-50px);
-    text-shadow: -1px 1px 1px rgb(83, 83, 83),-2px 2px 1px rgb(83, 83, 83),-3px 3px 1px rgb(83, 83, 83),-4px 4px 1px rgb(83, 83, 83),-5px 5px 1px rgb(83, 83, 83),-6px 6px 1px rgb(83, 83, 83),-7px 7px 1px rgb(83, 83, 83);
+    text-shadow: -1px 1px 1px rgb(83, 83, 83), -2px 2px 1px rgb(83, 83, 83), -3px 3px 1px rgb(83, 83, 83), -4px 4px 1px rgb(83, 83, 83), -5px 5px 1px rgb(83, 83, 83), -6px 6px 1px rgb(83, 83, 83), -7px 7px 1px rgb(83, 83, 83);
     animation: appear 1s ease-in-out forwards;
 }
 
-.text h1{
+.text h1 {
     font-weight: 800;
     font-size: 8rem;
     line-height: 0.88;
     transform: translateY(50px);
-    text-shadow: -1px 1px 1px rgb(83, 83, 83),-2px 2px 1px rgb(83, 83, 83),-3px 3px 1px rgb(83, 83, 83),-4px 4px 1px rgb(83, 83, 83),-5px 5px 1px rgb(83, 83, 83),-6px 6px 1px rgb(83, 83, 83),-7px 7px 1px rgb(83, 83, 83);
+    text-shadow: -1px 1px 1px rgb(83, 83, 83), -2px 2px 1px rgb(83, 83, 83), -3px 3px 1px rgb(83, 83, 83), -4px 4px 1px rgb(83, 83, 83), -5px 5px 1px rgb(83, 83, 83), -6px 6px 1px rgb(83, 83, 83), -7px 7px 1px rgb(83, 83, 83);
     animation: appear 1s ease-in-out forwards;
 }
 
@@ -306,33 +327,43 @@ main{
     0% {
         opacity: 0;
     }
+
     10% {
         opacity: 0.1;
     }
+
     20% {
         opacity: 0.2;
     }
+
     30% {
         opacity: 0.3;
     }
+
     40% {
         opacity: 0.4;
     }
+
     50% {
         opacity: 0.5;
     }
+
     60% {
         opacity: 0.6;
     }
+
     70% {
         opacity: 0.7;
     }
+
     80% {
         opacity: 0.8;
     }
+
     90% {
         opacity: 0.9;
     }
+
     100% {
         opacity: 1;
     }
@@ -341,41 +372,80 @@ main{
 .parallax {
     pointer-events: none;
     transform: translate(-50%, -50%);
-    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+    transition: 0.45s cubic-bezier(.2, .49, .32, .99);
 }
 
 /* RESPONSIVE */
 
-@media (max-width: 2000px){
-    .text{
+@keyframes touchScreen {
+    0% {
+        display: block;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 0.2;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0.2;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 2000px) {
+    .text {
         top: 47%;
         left: 38%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 4.8rem;
         transform: translateY(-25px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 6rem;
     }
 }
 
-@media (max-width: 1600px){
-    .text{
+@media (max-width: 1600px) {
+    .text {
         top: 45%;
         left: 34%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 4.1rem;
         transform: translateY(-10px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 5rem;
     }
 }
 
-@media (max-width: 1299px){
-    .touch{
+@media (max-width: 1299px) {
+    .touch {
         display: none;
         z-index: 10;
         position: absolute;
@@ -384,140 +454,140 @@ main{
         width: 50px;
         animation: touchScreen 7s;
     }
-    .text{
+
+    .text {
         top: 44%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 3.25rem;
         transform: translateY(-5px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 4rem;
     }
-    .logo{
+
+    .logo {
         width: 60px;
     }
-    header{
+
+    header {
         height: 80px;
     }
-    header ul a{
+
+    header ul a {
         font-size: 0.73rem;
-    } 
-}
-
-@keyframes touchScreen {
-    0% {
-        display: block;
-        opacity: 0;
-    }
-    25% {
-        opacity: 0.0;
-    }
-    
-    30% {
-        opacity: 1;
-    }
-    45% {
-        opacity: 0.2;
-    }
-    60% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 0.2;
-    }
-    90% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
     }
 }
 
-@media (max-width: 1100px){
-    .text{
+
+@media (max-width: 1100px) {
+    .text {
         top: 43%;
         left: 35%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 2.5rem;
         transform: translateY(+10px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 3rem;
     }
 }
 
-@media (max-width: 900px){
-    .text{
+@media (max-width: 900px) {
+    .text {
         top: 41%;
         left: 35%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 2rem;
         transform: translateY(+10px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 2.5rem;
     }
-    .logo{
+
+    .logo {
         width: 30px;
     }
-    header{
+
+    header {
         height: 50px;
     }
-    header ul a{
+
+    header ul a {
         margin: -10px;
-    } 
+    }
 }
 
-@media (max-width: 725px){
-    .text{
+@media (max-width: 725px) {
+    .text {
         top: 39%;
         left: 35%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 1.62rem;
         transform: translateY(+25px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 2rem;
-    }   
+    }
 }
 
-@media (max-width: 625px){
-    .text{
+@media (max-width: 625px) {
+    .text {
         top: 36%;
         left: 35%;
     }
-    .text h2{
+
+    .text h2 {
         font-size: 1.22rem;
         transform: translateY(+30px);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 1.5rem;
-    }   
+    }
 }
 
-@media (max-width: 520px){
+@media (max-width: 520px) {
     main {
         max-width: 520px;
-    }
-    main {
         transform: scale(4);
         transform-origin: 50% 15%;
         overflow: hidden;
     }
+
     .container {
-    overflow-x: hidden; /* Masquer le défilement horizontal */
-    height: 100vh;
-}
-    .text{
+        overflow-x: hidden;
+        height: 100vh;
+    }
+
+    .touch{
+        display: none;
+        z-index: 10;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        width: 10px;
+        animation: touchScreen 7s;
+    }
+
+    .text {
         top: 38%;
         left: 47%;
 
     }
-    .text h2{
+
+    .text h2 {
         position: absolute;
         top: center;
         left: center;
@@ -526,40 +596,47 @@ main{
         transform: translateY(+30px) translateX(-20px);
         text-shadow: -1px 1px 1px rgb(83, 83, 83);
     }
-    .text h1{
+
+    .text h1 {
         font-size: 1rem;
         text-shadow: -1px 1px 1px rgb(83, 83, 83);
     }
+
     .parallax {
         transition: 0.5s ease-in-out;
     }
-    header ul a{
+
+    header ul a {
         padding: 0;
         font-size: 0.53rem;
-    }    
+    }
 }
 
-@media (max-width: 450px){
-    .text{
+@media (max-width: 450px) {
+    .text {
         top: 34%;
     }
-    header ul a{
+
+    header ul a {
         margin: -15px;
-    }    
+    }
 }
 
-@media (max-width: 370px){
-    .text{
+@media (max-width: 370px) {
+    .text {
         top: 32%;
     }
-    header ul a{
+
+    header ul a {
         margin: -18px;
         display: none;
-    }    
-    .logo{
+    }
+
+    .logo {
         width: 30px;
     }
-    header{
+
+    header {
         border-bottom: none;
     }
 }
