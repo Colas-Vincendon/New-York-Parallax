@@ -1,9 +1,3 @@
-window.addEventListener("load", function() {
-    // Code à exécuter une fois que la page et tous les éléments sont chargés
-    // Par exemple, supprimer un écran de chargement ou afficher le contenu
-    const chargement = document.getElementById("chargement"); // Assurez-vous d'avoir un élément de chargement
-    chargement.style.display = "block"; // Supprime un élément de chargement
-});
 
 const parallax_el = document.querySelectorAll(".parallax");
 
@@ -17,7 +11,7 @@ function update(cursorPosition) {
         let speedy = el.dataset.speedy
         let speedz = el.dataset.speedz
         let rotateSpeed = el.dataset.rotation;
-    
+        
     
         let isInLeft = parseFloat(getComputedStyle(el).left) < window.innerWidth / 2 ? 1 : -1;
         
@@ -33,9 +27,16 @@ update(0);
 window.addEventListener("mousemove", (e) => {
     xValue = e.clientX - window.innerWidth / 2;
     yValue = e.clientY - window.innerHeight / 2;
-
+    
     rotateDegree = xValue / (window.innerHeight / 2) * 10;
-
+    
     update(e.clientX);
 });
 
+
+window.addEventListener("load", function() {
+    // Code à exécuter une fois que la page et tous les éléments sont chargés
+    // Par exemple, supprimer un écran de chargement ou afficher le contenu
+    const chargement = document.getElementById("chargement"); // Assurez-vous d'avoir un élément de chargement
+    chargement.style.display = "block"; // Supprime un élément de chargement
+});
