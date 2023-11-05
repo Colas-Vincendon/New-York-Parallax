@@ -468,7 +468,7 @@ main{
     }
     .text{
         top: 38%;
-        left: 45%;
+        left: 47%;
 
     }
     .text h2{
@@ -478,9 +478,11 @@ main{
         font-size: 0.8rem;
         font-weight: 300;
         transform: translateY(+30px) translateX(-20px);
+        text-shadow: -1px 1px 1px rgb(83, 83, 83);
     }
     .text h1{
         font-size: 1rem;
+        text-shadow: -1px 1px 1px rgb(83, 83, 83);
     }
     header ul a{
         padding: 0;
