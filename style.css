@@ -471,6 +471,10 @@ main{
         transform-origin: 50% 20%;
         overflow: hidden;
     }
+    .container {
+    overflow-x: hidden; /* Masquer le défilement horizontal */
+    height: 100vh;
+}
     .text{
         top: 38%;
         left: 47%;
