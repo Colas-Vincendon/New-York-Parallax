@@ -464,7 +464,7 @@ main{
 @media (max-width: 520px){
     main {
         transform: scale(4);
-        transform-origin: center;
+        transform-origin: 50% 20%;
     }
     .text{
         top: 38%;
