@@ -465,6 +465,7 @@ main{
     main {
         transform: scale(4);
         transform-origin: 50% 20%;
+        overflow-x: hidden;
     }
     .text{
         top: 38%;
