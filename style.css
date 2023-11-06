@@ -303,23 +303,6 @@ main {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-}
-
-.text h2 {
-    font-weight: 100;
-    font-size: 6.5rem;
-    line-height: 0.88;
-    transform: translateY(-50px);
-    text-shadow: -1px 1px 1px rgb(83, 83, 83), -2px 2px 1px rgb(83, 83, 83), -3px 3px 1px rgb(83, 83, 83), -4px 4px 1px rgb(83, 83, 83), -5px 5px 1px rgb(83, 83, 83), -6px 6px 1px rgb(83, 83, 83), -7px 7px 1px rgb(83, 83, 83);
-    animation: appear 1s ease-in-out forwards;
-}
-
-.text h1 {
-    font-weight: 800;
-    font-size: 8rem;
-    line-height: 0.88;
-    transform: translateY(50px);
-    text-shadow: -1px 1px 1px rgb(83, 83, 83), -2px 2px 1px rgb(83, 83, 83), -3px 3px 1px rgb(83, 83, 83), -4px 4px 1px rgb(83, 83, 83), -5px 5px 1px rgb(83, 83, 83), -6px 6px 1px rgb(83, 83, 83), -7px 7px 1px rgb(83, 83, 83);
     animation: appear 1s ease-in-out forwards;
 }
 
@@ -369,10 +352,37 @@ main {
     }
 }
 
+.text h2 {
+    font-weight: 100;
+    font-size: 6.5rem;
+    line-height: 0.88;
+    transform: translateY(-50px);
+    text-shadow: -1px 1px 1px rgb(83, 83, 83), -2px 2px 1px rgb(83, 83, 83), -3px 3px 1px rgb(83, 83, 83), -4px 4px 1px rgb(83, 83, 83), -5px 5px 1px rgb(83, 83, 83), -6px 6px 1px rgb(83, 83, 83), -7px 7px 1px rgb(83, 83, 83);
+}
+
+.text h1 {
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 0.88;
+    transform: translateY(50px);
+    text-shadow: -1px 1px 1px rgb(83, 83, 83), -2px 2px 1px rgb(83, 83, 83), -3px 3px 1px rgb(83, 83, 83), -4px 4px 1px rgb(83, 83, 83), -5px 5px 1px rgb(83, 83, 83), -6px 6px 1px rgb(83, 83, 83), -7px 7px 1px rgb(83, 83, 83);
+}
+
 .parallax {
     pointer-events: none;
     transform: translate(-50%, -50%);
     transition: 0.45s cubic-bezier(.2, .49, .32, .99);
+}
+
+.touch {
+    display: none;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    animation: touchScreen 7s;
 }
 
 /* RESPONSIVE */
