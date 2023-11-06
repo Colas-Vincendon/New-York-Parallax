@@ -662,6 +662,7 @@ main::before{
     }
 
     .content{
+        padding: 30px;
         margin-top: 142%;
     }
 
