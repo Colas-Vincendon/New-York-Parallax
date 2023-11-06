@@ -556,11 +556,11 @@ main::before{
     }
 
     .logo {
-        width: 30px;
+        width: 40px;
     }
 
     header {
-        height: 50px;
+        height: 60px;
     }
 
     header ul a {
@@ -673,6 +673,10 @@ main::before{
         padding: 0;
         font-size: 0.53rem;
     }
+
+    .hamburger{
+        transform: translateX(-10px);
+    }
 }
 
 @media (max-width: 450px) {
@@ -696,7 +700,7 @@ main::before{
     }
 
     .logo {
-        width: 30px;
+        width: 40px;
     }
 
     header {
