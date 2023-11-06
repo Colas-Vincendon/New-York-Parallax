@@ -393,9 +393,8 @@ main {
 }
 
 .content h2{
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 30px;
-
 }
 
 .content p{
@@ -509,6 +508,10 @@ main::before{
 
     .logo {
         width: 60px;
+    }
+
+    .content h2{
+        font-size: 3rem;
     }
 
     header {
