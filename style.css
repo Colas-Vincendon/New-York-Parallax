@@ -385,6 +385,33 @@ main {
         animation: touchScreen 7s;
     }
 
+.content{
+    position: relative;
+    padding: 100px;
+    background-color: rgb(39, 39, 56);
+    color: #fff;
+}
+
+.content h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+
+}
+
+.content p{
+    font-size: 1.2rem;
+}
+
+main::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top,rgb(39, 39, 56),transparent);
+}
+
 /* RESPONSIVE */
 
 @keyframes touchScreen {
@@ -536,6 +563,15 @@ main {
     header ul a {
         margin: -10px;
     }
+    .content{
+        padding: 50px;
+    }
+    .content h2{
+        font-size: 2.5rem;
+    }
+    .content p{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 725px) {
@@ -613,6 +649,20 @@ main {
 
     .parallax {
         transition: 0.5s ease-in-out;
+    }
+
+    main::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        z-index: 100;
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(to top,rgb(39, 39, 56),transparent);
+    }
+
+    .content{
+        margin-top: 142%;
     }
 
     header ul a {
